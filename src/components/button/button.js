@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./button.styles.css";
 
+// Build two elements: elementA and elementB -- When elementA is clicked, the text in elementA is bold and the text in elementB is normal -- What elementB is clicked, the text in elementB is bold and the text in elementA is normal
+
 const Button = () => {
   const [bold, setBold] = useState({
     elementA: true,
